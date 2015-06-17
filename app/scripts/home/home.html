@@ -1,0 +1,31 @@
+<div class="container home">
+  <div class="row">
+    <div
+      class="small-12 large-4 columns"
+      data-ng-repeat="service in vm.WEBSITE_SETTINGS.PAGES.HOME.SERVICES">
+      <a
+        class="service"
+        data-ui-sref="app.our-work.page-anchor({ pageAnchor: service.LINK.PAGE_ANCHOR })">
+        <h2><small>{{ service.TITLE }}</small></h2>
+        <span class="image"><!-- <img ng-src="images/services/{{ service.IMAGE }}" alt="{{ service.TITLE }}"> --></span>
+        <span class="copy"><div ng-bind-html="service.COPY"></div></span>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 large-6 columns">
+      <h3>Welcome to {{ vm.WEBSITE_SETTINGS.TITLE }}</h3>
+      <div
+        data-ng-bind-html="vm.WEBSITE_SETTINGS.PAGES.HOME.INTRO_COPY"></div>
+      <h4>How we work</h4>
+      <div
+        data-ng-bind-html="vm.WEBSITE_SETTINGS.PAGES.HOME.HOW_WE_WORK_COPY"></div>
+    </div>
+    <div class="small-12 large-6 columns">
+      <h5>Latest news</h5>
+      <div class="latest-news-container">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-height="500px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+      </div>
+    </div>
+  </div>
+</div>

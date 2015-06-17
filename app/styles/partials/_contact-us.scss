@@ -1,0 +1,45 @@
+/*
+|-----------
+| Contact us
+|-----------
+*/
+
+.contact-us {
+
+	h2 {
+		margin-top: 30px;
+		color: $orange;
+	}
+
+	ul  {
+		margin-bottom: 60px;
+		a {
+			color: $orange;
+			text-decoration: none;
+
+			&:hover {
+				color: darken($orange, 10%);
+			}
+		}
+	}
+
+	p:last-child {
+		margin-bottom: 60px;
+	}
+	
+	.google-map-container {
+	    position: relative;
+	    margin: 0 0 20px 0;
+	    width: 100%;
+	    height: 450px;
+	    background: $black;
+	}
+
+	.gmnoprint img {
+	    max-width: none;
+	}
+
+	.google-map-container [data-icon]:before {
+	    content: '';
+	}
+}

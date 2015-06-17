@@ -1,0 +1,60 @@
+/*
+|--------
+| Loading
+|--------
+*/
+
+#loading-bar {
+	.bar {
+		background: $black;
+	}
+	.peg {
+		-moz-box-shadow: $black 1px 0 6px 1px;
+		-ms-box-shadow: $black 1px 0 6px 1px;
+		-webkit-box-shadow: $black 1px 0 6px 1px;
+		box-shadow: $black 1px 0 6px 1px;
+	}
+}
+
+#loading-bar-spinner {
+	top: 12px;
+	.spinner-icon {
+		border-top-color:  $black;
+		border-left-color: $black;
+		width: 22px;
+		height: 22px;
+	}
+}
+
+/*
+|---------
+| Small Up
+|---------
+*/
+
+@media only screen and (min-width: 40.063em) {
+
+	#loading-bar {
+		.bar {
+			background: $orange;
+		}
+		.peg {
+			-moz-box-shadow: $orange 1px 0 6px 1px;
+			-ms-box-shadow: $orange 1px 0 6px 1px;
+			-webkit-box-shadow: $orange 1px 0 6px 1px;
+			box-shadow: $orange 1px 0 6px 1px;
+		}
+	}
+
+	#loading-bar-spinner {
+		top: 5px;
+		.spinner-icon {
+			width: 7px;
+			height: 7px;
+			border-top-color:  $orange;
+			border-left-color: $orange;
+			width: 22px;
+			height: 22px;
+		}
+	}
+}

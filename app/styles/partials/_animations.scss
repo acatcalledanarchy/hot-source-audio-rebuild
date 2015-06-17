@@ -1,0 +1,46 @@
+/*
+|-----------------
+| Banner animation
+|-----------------
+*/
+
+.banner.ng-leave {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	animation: fadeOut 0.25s both ease-in;
+}
+
+.banner.ng-enter {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    animation: fadeIn 0.25s both ease-in;
+}
+
+@keyframes fadeOut {
+    from    { opacity: 1; }
+    to      { opacity: 0; }
+}
+@-moz-keyframes fadeOut {
+    from    { opacity: 1; }
+    to      { opacity: 0; }
+}
+@-webkit-keyframes fadeOut {
+    from    { opacity: 1; }
+    to      { opacity: 0; }
+}
+@keyframes fadeIn {
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}
+@-webkit-keyframes fadeIn {
+    from    { opacity: 0; }
+    to      { opacity: 1; }
+}

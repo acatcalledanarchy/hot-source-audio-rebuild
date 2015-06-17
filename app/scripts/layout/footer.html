@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row testimonials-title">
+    <div class="small-12 columns">
+      <h6>Testimonials</h6>
+    </div>
+  </div>
+  <div class="row testimonials">
+    <div 
+      class="small-12 medium-6 columns"
+      data-ng-repeat="testimonial in vm.WEBSITE_SETTINGS.TESTIMONIALS">
+      <blockquote>{{ testimonial.BLOCKQUOTE }}<cite>{{ testimonial.CITE }}</cite></blockquote>
+    </div>
+  </div>
+  <div class="row testimonials-small-print">
+    <div class="small-12 columns">
+      <p><span class="star">*</span>&nbsp;&nbsp;Please note there was no waterboarding or other coercion techniques employed ingarnering the above testimonials.</p>
+    </div>
+  </div>
+</div>

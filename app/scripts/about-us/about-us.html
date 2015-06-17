@@ -1,0 +1,35 @@
+<div class="container about-us">
+	<div class="row">
+		<div class="small-12 large-6 columns intro">
+			<h2>About us</h2>
+			<div
+				data-ng-bind-html="vm.WEBSITE_SETTINGS.PAGES.ABOUT_US.INTRO_COPY"></div>
+		</div>
+		<div class="medium-12 large-6 columns">
+			<div class="image"></div>
+		</div>
+	</div>
+	<div class="row">
+        <div
+        	class="small-12 large-4 columns"
+        	data-ng-repeat="employee in vm.WEBSITE_SETTINGS.EMPLOYEES">
+        	<div class="employee">
+    		 	<h4>{{ employee.FIRST_NAME }} {{ employee.SURNAME }}</h4>
+    		 	<p>{{ employee.JOB_TITLE }}<br>{{ employee.JOB_DESCRIPTION }}</p>
+        		<div class="image {{ employee.CLASS }}"></div>
+        		<ul class="no-bullet">
+					<li>
+						<i class="icon-mail-3">
+						</i>&nbsp;&nbsp;<a href="mailto:{{ employee.EMAIL_ADDRESS }}">{{ employee.EMAIL_ADDRESS }}</a>
+					</li>
+					<li>
+						<i class="icon-phone">
+						</i>&nbsp;&nbsp;<a href="tel:{{ employee.TELEPHONE_NUMBER }}">{{ employee.TELEPHONE_NUMBER }}</a>
+					</li>
+				</ul>
+				<div 
+					data-ng-bind-html="employee.COPY"></div>
+        	</div>
+        </div>
+	</div>
+</div>	
