@@ -94,6 +94,8 @@ body {
 							text-transform: uppercase;
 							color: $black;
 							background: darken($orange, 10%);
+							font-size: 0.9rem;
+							font-weight: 600;
 							&:hover {
 								color: $white;
 								background: darken($orange, 15%);
@@ -111,8 +113,6 @@ body {
 							a {
 								span::after {
 									box-shadow: 0 0 0 1px #FFF, 0 7px 0 1px #FFF, 0 14px 0 1px #FFF;
-									//@include box-shadow($white 0 0 0 1px, $white 0 7px 0 1px, $white 0 14px 0 1px);
-
 								}
 							}
 						}

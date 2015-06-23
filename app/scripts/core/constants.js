@@ -3,7 +3,7 @@
     'use strict';
 
     var WEBSITE_SETTINGS = {
-            TITLE: 'Hot Source',
+            TITLE: 'Hot Source Audio Production',
             GOOGLE: {
                 MAP: {
                     LATITUDE: 49.4604184,
@@ -36,8 +36,7 @@
                 AREA: 'Channel Islands',
                 POSTCODE: 'GY1 3WG'
             },
-            FACEBOOK_URL: 'https://facebook.com/',
-            TWITTER_URL: 'https://twitter.com/HotsourceAudio',
+            FACEBOOK_URL: 'https://www.facebook.com/pages/Hot-Source-Audio-Production/391122817686623',
             PAGES: {
                 HOME: {
                     META: {

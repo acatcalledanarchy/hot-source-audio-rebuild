@@ -84,6 +84,7 @@
 		})
 		.state('app.home', {
 			url: '/',
+			cache: false,
 			views: {
 				'banner@': {
 					templateUrl: 'scripts/layout/banner.html',
