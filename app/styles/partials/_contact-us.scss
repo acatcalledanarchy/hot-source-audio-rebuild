@@ -5,12 +5,10 @@
 */
 
 .contact-us {
-
 	h2 {
 		margin-top: 30px;
 		color: $orange;
 	}
-
 	ul  {
 		margin-bottom: 60px;
 		a {
@@ -22,11 +20,9 @@
 			}
 		}
 	}
-
 	p:last-child {
 		margin-bottom: 60px;
 	}
-	
 	.google-map-container {
 	    position: relative;
 	    margin: 0 0 20px 0;
@@ -34,11 +30,9 @@
 	    height: 450px;
 	    background: $black;
 	}
-
 	.gmnoprint img {
 	    max-width: none;
 	}
-
 	.google-map-container [data-icon]:before {
 	    content: '';
 	}
