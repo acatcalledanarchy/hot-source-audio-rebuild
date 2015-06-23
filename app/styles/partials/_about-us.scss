@@ -18,7 +18,10 @@
 			width: 100%;
 			height: 0;
 			padding-bottom: 80%;
-			background: $image-color url(../images/about-us/about-us.jpg) no-repeat center center;
+			background-color: $black;
+			background-repeat: no-repeat;
+			background-position: center center;
+			//background: $image-color url(../images/about-us/about-us.jpg) no-repeat center center;
 			background-size: cover;
 		}
 		.employee {
@@ -34,7 +37,12 @@
 			.image {
 				margin: 0;
 				padding-bottom: 87%;
+				background-color: $black;
+				background-repeat: no-repeat;
+				background-position: center center;
+				background-size: cover;
 			}
+			/*
 			.simon {
 				background: $image-color url(../images/about-us/simon.jpg) no-repeat center center;
 				background-size: cover;
@@ -47,6 +55,7 @@
 				background: $image-color url(../images/about-us/nick.jpg) no-repeat center center;
 				background-size: cover;
 			}
+			*/
 			ul {
 				margin-top: 20px;
 				a {
